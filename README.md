@@ -4,7 +4,7 @@ Modeling of published clinical Rifampicin-Midazolam-DDI studies for model evalua
 ![gim](https://github.com/Open-Systems-Pharmacology/Rifampicin-Midazolam-DDI/blob/master/Rifampicin-Midazolam-DDI.png)
 
 ### Repository files
-Within this repository, we distribute a PK-Sim project file containing simulations of all published clinical studies used to evaluate the predictive performance of our models regarding the Rifampicin-Midazolam-DDI, including the respective observed data digitized from literature reports. For further details and documentation please refer to [[1](#reference)]. 
+Within this repository, we distribute a PK-Sim project file containing simulations of all published clinical studies used to evaluate the predictive performance of our models regarding the Rifampicin-Midazolam-DDI, including the respective observed data digitized from literature reports. The applied rifampicin model is a refined version of the rifampicin compound template provided in PK-Sim; the compound template will be updated as soon as possible. For further details and documentation please refer to [[1](#reference)]. 
 
 ### License
 The model is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE). 
