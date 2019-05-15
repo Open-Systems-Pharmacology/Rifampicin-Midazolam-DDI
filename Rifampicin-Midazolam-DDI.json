@@ -6945,7 +6945,7 @@
       "Model": "4Comp",
       "ObservedData": [
         "Eap 2004 - 7.5 mg with Perpetrator (Rifampicin) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=4)",
-        "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)"
+        "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7418,9 +7418,9 @@
               }
             },
             {
-              "Name": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)|Time",
-              "Y": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
+              "Name": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
@@ -7470,7 +7470,7 @@
       "Name": "DDI Control - Midazolam - Eap 2004 (0.075 mg)",
       "Model": "4Comp",
       "ObservedData": [
-        "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)"
+        "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -7835,9 +7835,9 @@
               }
             },
             {
-              "Name": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|Time",
-              "Y": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
+              "Name": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)-Midazolam-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|Time",
+              "Y": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -21715,7 +21715,7 @@
       }
     },
     {
-      "Name": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)",
+      "Name": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -21739,7 +21739,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "75 micg Control (Perpetrator Placebo)"
+          "Value": "0.075 mg Control (Perpetrator Placebo)"
         },
         {
           "Name": "Data type",
@@ -21771,7 +21771,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "75 Âµg"
+          "Value": "0.075 mg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -21798,7 +21798,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
+                "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -21820,7 +21820,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
+            "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -21845,7 +21845,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)|Time",
+          "Path": "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -22177,7 +22177,7 @@
       }
     },
     {
-      "Name": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)",
+      "Name": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -22201,7 +22201,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "75 micg with Perpetrator (Rifampicin)"
+          "Value": "0.075 mg with Perpetrator (Rifampicin)"
         },
         {
           "Name": "Data type",
@@ -22233,7 +22233,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "75 Âµg"
+          "Value": "0.075 mg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -22260,7 +22260,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
+                "Path": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -22281,7 +22281,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
+            "Path": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -22305,7 +22305,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)|Time",
+          "Path": "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -28055,10 +28055,10 @@
     {
       "Name": "Eap 2004",
       "Classifiables": [
-        "Eap 2004 - 75 micg Control (Perpetrator Placebo) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=21)",
+        "Eap 2004 - 0.075 mg Control (Perpetrator Placebo) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=21)",
         "Eap 2004 - 7.5 mg with Perpetrator (Rifampicin) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=4)",
         "Eap 2004 - 7.5 mg Control (Perpetrator Placebo) - Midazolam - PO - 7.5 mg - Plasma - agg. (n=13)",
-        "Eap 2004 - 75 micg with Perpetrator (Rifampicin) - Midazolam - PO - 75 Âµg - Plasma - agg. (n=4)"
+        "Eap 2004 - 0.075 mg with Perpetrator (Rifampicin) - Midazolam - PO - 0.075 mg - Plasma - agg. (n=4)"
       ]
     },
     {
