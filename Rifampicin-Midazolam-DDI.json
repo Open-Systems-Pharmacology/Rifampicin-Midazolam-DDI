@@ -5676,6 +5676,224 @@
         }
       ],
       "TimeUnit": "h"
+    },
+    {
+      "Name": "Wiesinger 2020 - Midazolam - 1 mg (Control)",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Oral solution",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Wiesinger 2020 - Midazolam - 1 mg (with Rifampicin)",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Oral solution",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 180.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Oral solution",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 444.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Wiesinger - Rifampicin - low dose and high dose OD",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 10.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 11.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 600.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 264.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 11.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
     }
   ],
   "Simulations": [
@@ -24409,6 +24627,1028 @@
       ]
     },
     {
+      "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 228.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Gertz et al. 2010",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Shin 2013 - Midazolam - iv 2.5 mg (with Rifampicin)"
+          }
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Shin 2013 - Rifampicin - 600 mg MD OD 10 days",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2013|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2013|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Treatment - Rifampicin/Midazolam - Shin 2013\n2020-03-26 15:46"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
+      "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 228.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (interstitial->intracellular)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Midazolam|P (intracellular->interstitial)",
+          "Value": 0.0019242177595,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI Hohmann iv+po, Hyland feUr MDZG, Thummel feUr unchanged - Pint' on 2019-04-09 16:10"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Midazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "FaSSIF",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Gertz et al. 2010",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "UGT1A4-Optimized",
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Optimized"
+            },
+            {
+              "Name": "GABRG2-Buhr 1997",
+              "MoleculeName": "GABRG2"
+            }
+          ],
+          "Protocol": {
+            "Name": "Shin 2016 - Midazolam - iv 2.5 mg (with Rifampicin)"
+          }
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Shin 2016 - Rifampicin - 600 mg MD OD 10 days",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2016|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2016|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Treatment - Rifampicin/Midazolam - Shin 2016\n2020-03-26 15:47"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Kajosaari 2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Reitman 2011",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "CYP3A4-Templeton 2011",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "P-gp-Greiner 1999",
+          "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Rifampicin"
+        }
+      ]
+    },
+    {
       "Name": "DDI Control - Midazolam - Kim 2018 (male)",
       "Model": "4Comp",
       "Solver": {},
@@ -26159,10 +27399,10 @@
       ]
     },
     {
-      "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013",
+      "Name": "DDI Control - Midazolam - Wiesinger 2020",
       "Model": "4Comp",
       "ObservedData": [
-        "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)"
+        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -26194,71 +27434,20 @@
             },
             {
               "Name": "End time",
-              "Value": 228.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 24.0,
+              "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
+              "Value": 4.0,
+              "Unit": "pts/h"
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Shin 2013 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger 2020 - Midazolam - 1 mg (Control)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -26484,8 +27673,7 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)"
+        "Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)"
       ],
       "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
@@ -26531,44 +27719,11 @@
             }
           ],
           "Protocol": {
-            "Name": "Shin 2013 - Midazolam - iv 2.5 mg (with Rifampicin)"
-          }
-        },
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Shin 2013 - Rifampicin - 600 mg MD OD 10 days",
+            "Name": "Wiesinger 2020 - Midazolam - 1 mg (Control)",
             "Formulations": [
               {
                 "Name": "Oral solution",
-                "Key": "Formulation"
+                "Key": "Oral solution"
               }
             ]
           }
@@ -26603,77 +27758,36 @@
           ],
           "Curves": [
             {
-              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2013|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
+              "X": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2013-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2013|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Shin 2013 - CYP3A4 induced phase (Midazolam + rifampicin) - Midazolam - IV - 2.5 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "DDI Control - Midazolam - Wiesinger 2020-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Control - Midazolam - Wiesinger 2020|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
               }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Treatment - Rifampicin/Midazolam - Shin 2013\n2020-03-26 15:46"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Kajosaari 2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "CYP3A4-Templeton 2011",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Greiner 1999",
-          "MoleculeName": "P-gp",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
+          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Control - Midazolam - Wiesinger 2020\n2020-04-24 13:55"
         }
       ]
     },
     {
-      "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016",
+      "Name": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020",
       "Model": "4Comp",
       "ObservedData": [
-        "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)"
+        "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+        "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -26686,12 +27800,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 180.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -26700,12 +27814,15 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
+              "Value": 180.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "End time",
-              "Value": 228.0,
+              "Value": 182.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -26720,56 +27837,204 @@
               }
             }
           ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 444.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 446.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 182.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 444.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 446.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 528.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Shin 2016 - Rifampicin - 600 mg MD OD 10 days|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger - Rifampicin - low dose and high dose OD|Oral solution|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger 2020 - Midazolam - 1 mg (with Rifampicin)|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Wiesinger 2020 - Midazolam - 1 mg (with Rifampicin)|Oral solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -27042,7 +28307,13 @@
             }
           ],
           "Protocol": {
-            "Name": "Shin 2016 - Midazolam - iv 2.5 mg (with Rifampicin)"
+            "Name": "Wiesinger 2020 - Midazolam - 1 mg (with Rifampicin)",
+            "Formulations": [
+              {
+                "Name": "Oral solution",
+                "Key": "Oral solution"
+              }
+            ]
           }
         },
         {
@@ -27075,7 +28346,7 @@
             }
           ],
           "Protocol": {
-            "Name": "Shin 2016 - Rifampicin - 600 mg MD OD 10 days",
+            "Name": "Wiesinger - Rifampicin - low dose and high dose OD",
             "Formulations": [
               {
                 "Name": "Oral solution",
@@ -27095,17 +28366,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 156.985718,
+              "Max": 495.1732,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "ng/ml",
+              "Unit": "µmol/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.7240631,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -27114,37 +28389,47 @@
           ],
           "Curves": [
             {
-              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020-Midazolam-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2016|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "DDI Treatment - Rifampicin/Midazolam - Shin 2016-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "DDI Treatment - Rifampicin/Midazolam - Shin 2016|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "Name": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
+              "X": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
               "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             },
             {
-              "Name": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Shin 2016 - Midazolam + rifampicin - Midazolam - IV - 2.5 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "Name": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)-Midazolam-Peripheral Venous Blood-Plasma-Median",
+              "X": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            },
+            {
+              "Name": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020-Rifampicin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4
+              }
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Treatment - Rifampicin/Midazolam - Shin 2016\n2020-03-26 15:47"
+          "OriginText": "Rifampicin-Midazolam-DDI\nDDI Treatment - Rifampicin/Midazolam - Wiesinger 2020\n2020-04-24 13:53"
         }
       ],
       "Interactions": [
@@ -27434,17 +28719,17 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.001981651,
-            0.002201835,
-            0.002201835,
-            0.00176146813,
-            0.0009908257,
-            0.000660550431,
-            0.0003302752,
-            0.000220183516
+            1.98165083,
+            2.201835,
+            2.201835,
+            1.761468,
+            0.9908258,
+            0.6605505,
+            0.3302752,
+            0.2201835
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -36598,6 +37883,429 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 203.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Wiesinger 2020"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/32275771"
+        },
+        {
+          "Name": "Source",
+          "Value": "https://github.com/Open-Systems-Pharmacology/Hormonal-Contraceptive-Agents-Datasets"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Control phase (no RIF)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 65.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": ""
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "solution (0.5 mL)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            4.58,
+            4.0,
+            2.77,
+            1.9799999,
+            1.4,
+            1.13,
+            0.933,
+            0.770999968,
+            0.51,
+            0.395,
+            0.281,
+            0.165,
+            0.119,
+            0.0393000022
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          5.0,
+          6.0,
+          8.0,
+          12.0,
+          15.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 204.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Wiesinger 2020"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/32275771"
+        },
+        {
+          "Name": "Source",
+          "Value": "https://github.com/Open-Systems-Pharmacology/Hormonal-Contraceptive-Agents-Datasets"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Weak-induction phase (RIF 10 mg)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 65.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": ""
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 180.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "solution (0.5 mL)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            0.00314,
+            0.00244,
+            0.00149,
+            0.00101,
+            0.00074,
+            0.00054,
+            0.000438,
+            0.000369,
+            0.000243,
+            0.000188,
+            0.000128,
+            8.49000062E-05,
+            5.3E-05,
+            1.86E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          180.5,
+          181.0,
+          181.5,
+          182.0,
+          182.5,
+          183.0,
+          183.5,
+          184.0,
+          185.0,
+          186.0,
+          188.0,
+          192.0,
+          195.0,
+          204.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 205.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Wiesinger 2020"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/32275771"
+        },
+        {
+          "Name": "Source",
+          "Value": "https://github.com/Open-Systems-Pharmacology/Hormonal-Contraceptive-Agents-Datasets"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Strong-induction phase (RIF 600 mg)"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 65.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Midazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": ""
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 444.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "solution (0.5 mL)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|Median"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 325.77
+          },
+          "Values": [
+            0.000903,
+            0.000726,
+            0.000446,
+            0.000278000021,
+            0.000202,
+            0.000147,
+            0.000117000011,
+            9.269999E-05,
+            4.82E-05,
+            4.02E-05,
+            2.48E-05,
+            1.67000017E-05,
+            1.03999992E-05,
+            2.52E-06
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          444.5,
+          445.0,
+          445.5,
+          446.0,
+          446.5,
+          447.0,
+          447.5,
+          448.0,
+          449.0,
+          450.0,
+          452.0,
+          456.0,
+          459.0,
+          468.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -36756,6 +38464,14 @@
         "Yu 2004 - Treatment Rifampicin CYP3A5*1/*3 - Midazolam - IV - 2 mg - Plasma - agg. (n=6)",
         "Yu 2004 - Treatment Rifampicin CYP3A5*3/*3 - Midazolam - IV - 2 mg - Plasma - agg. (n=7)"
       ]
+    },
+    {
+      "Name": "Wiesinger 2020",
+      "Classifiables": [
+        "Wiesinger 2020 - Control phase (no RIF) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+        "Wiesinger 2020 - Weak-induction phase (RIF 10 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)",
+        "Wiesinger 2020 - Strong-induction phase (RIF 600 mg) - Midazolam - PO - 1 mg - Plasma - agg. (n=65)"
+      ]
     }
   ],
   "SimulationClassifications": [
@@ -36906,6 +38622,13 @@
       "Classifiables": [
         "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
         "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)"
+      ]
+    },
+    {
+      "Name": "Wiesinger 2020",
+      "Classifiables": [
+        "DDI Control - Midazolam - Wiesinger 2020",
+        "DDI Treatment - Rifampicin/Midazolam - Wiesinger 2020"
       ]
     }
   ]
