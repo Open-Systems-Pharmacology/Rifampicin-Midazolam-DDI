@@ -1,5 +1,5 @@
 {
-  "Version": 76,
+  "Version": 77,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h)",
@@ -88,12 +88,22 @@
           },
           "Parameters": [
             {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
               "Name": "t1/2 (liver)",
               "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -203,6 +213,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -592,6 +619,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -634,6 +671,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -749,6 +803,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -779,6 +843,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -802,6 +876,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -918,6 +1002,11 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1027,6 +1116,23 @@
             {
               "Name": "ColonSigmoid",
               "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1416,6 +1522,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1458,6 +1574,23 @@
               "Name": "Muscle",
               "MembraneLocation": "Basolateral",
               "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1573,6 +1706,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1603,6 +1746,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1626,6 +1779,16 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
             }
           ]
         }
@@ -5081,21 +5244,6 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "day(s)",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
             }
           ]
         }
@@ -5914,31 +6062,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -6210,7 +6339,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -6300,12 +6430,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 113.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -6314,8 +6444,61 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 113.0,
               "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 137.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 137.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 185.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 185.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             },
             {
               "Name": "End time",
@@ -6633,7 +6816,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -6676,7 +6860,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -6817,38 +7002,13 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
               "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
             }
           ]
         }
@@ -7119,7 +7279,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -7208,12 +7369,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 113.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -7222,7 +7383,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 113.0,
               "Unit": "h"
             },
             {
@@ -7536,7 +7697,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -7579,7 +7741,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -7705,12 +7868,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 166.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -7719,7 +7882,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 166.0,
               "Unit": "h"
             },
             {
@@ -8048,7 +8211,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8091,7 +8255,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -8217,31 +8382,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -8513,7 +8659,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8602,12 +8749,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 114.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -8616,12 +8763,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 114.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 137.0,
+              "Value": 138.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -8935,7 +9082,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -8978,7 +9126,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -9115,31 +9264,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -9411,7 +9541,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -9499,31 +9630,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -9795,7 +9907,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -9883,12 +9996,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -9897,7 +10010,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
@@ -10221,7 +10334,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -10258,7 +10372,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -10384,12 +10499,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -10398,7 +10513,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
@@ -10722,7 +10837,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -10765,7 +10881,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -10891,31 +11008,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -11187,7 +11285,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -11270,31 +11369,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -11566,7 +11646,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -11655,31 +11736,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -11951,7 +12013,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -12039,31 +12102,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -12335,7 +12379,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -12423,12 +12468,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 146.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -12437,7 +12482,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 146.0,
               "Unit": "h"
             },
             {
@@ -12796,7 +12841,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -12839,7 +12885,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -12964,12 +13011,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 146.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -12978,7 +13025,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 146.0,
               "Unit": "h"
             },
             {
@@ -13337,7 +13384,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -13380,7 +13428,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -13507,12 +13556,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 104.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -13521,7 +13570,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 104.0,
               "Unit": "h"
             },
             {
@@ -13840,7 +13889,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -13883,7 +13933,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -14024,31 +14075,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -14315,7 +14347,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -14397,31 +14430,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -14693,7 +14707,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -14781,12 +14796,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 144.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -14795,7 +14810,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 144.0,
               "Unit": "h"
             },
             {
@@ -15114,7 +15129,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -15157,7 +15173,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -15283,12 +15300,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 144.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -15297,7 +15314,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 144.0,
               "Unit": "h"
             },
             {
@@ -15611,7 +15628,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -15648,7 +15666,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -15774,31 +15793,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -16070,7 +16070,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16158,31 +16159,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -16449,7 +16431,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16531,12 +16514,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 106.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -16545,12 +16528,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 106.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 128.0,
+              "Value": 130.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -16854,7 +16837,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -16891,7 +16875,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -17017,31 +17002,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -17308,7 +17274,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -17424,7 +17391,7 @@
             },
             {
               "Name": "End time",
-              "Value": 650.0,
+              "Value": 672.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17444,7 +17411,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 650.0,
+              "Value": 672.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17477,7 +17444,7 @@
             },
             {
               "Name": "End time",
-              "Value": 818.0,
+              "Value": 840.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17497,7 +17464,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 818.0,
+              "Value": 840.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17530,7 +17497,7 @@
             },
             {
               "Name": "End time",
-              "Value": 986.0,
+              "Value": 1008.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17550,7 +17517,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 986.0,
+              "Value": 1008.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17576,34 +17543,6 @@
             {
               "Name": "Start time",
               "Value": 1320.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 1322.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 1322.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17619,8 +17558,11 @@
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         }
@@ -18047,7 +17989,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -18090,7 +18033,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -18249,12 +18193,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -18263,7 +18207,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 132.0,
               "Unit": "h"
             },
             {
@@ -18587,7 +18531,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -18624,7 +18569,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -18750,31 +18696,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -19046,7 +18973,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -19129,12 +19057,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -19143,7 +19071,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
@@ -19462,7 +19390,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -19505,7 +19434,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -19643,12 +19573,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -19657,7 +19587,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
@@ -19976,7 +19906,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -20019,7 +19950,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -20156,12 +20088,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -20170,7 +20102,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
@@ -20489,7 +20421,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -20532,7 +20465,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -20669,12 +20603,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -20683,7 +20617,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 108.0,
               "Unit": "h"
             },
             {
@@ -21002,7 +20936,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -21045,7 +20980,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -21181,31 +21117,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -21472,7 +21389,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -21554,31 +21472,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -21850,7 +21749,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -21938,31 +21838,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -22007,7 +21888,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -22089,12 +21971,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 120.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -22103,12 +21985,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 120.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 152.0,
+              "Value": 154.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -22192,7 +22074,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -22229,7 +22112,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -22356,31 +22240,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -22652,7 +22517,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -22749,12 +22615,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 156.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -22763,12 +22629,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 156.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 194.0,
+              "Value": 180.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -23087,7 +22953,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -23130,7 +22997,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -23245,31 +23113,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -23541,7 +23390,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -23630,38 +23480,13 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
               "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
             }
           ]
         }
@@ -23938,7 +23763,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -23981,7 +23807,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -24107,31 +23934,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -24398,7 +24206,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -24481,31 +24290,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -24772,7 +24562,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -24855,12 +24646,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -24869,12 +24660,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 228.0,
+              "Value": 230.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -25203,7 +24994,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -25240,7 +25032,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -25366,12 +25159,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -25380,12 +25173,12 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
               "Name": "End time",
-              "Value": 228.0,
+              "Value": 230.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -25714,7 +25507,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -25751,7 +25545,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -25874,31 +25669,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -26165,7 +25941,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -26233,12 +26010,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -26247,7 +26024,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 216.0,
               "Unit": "h"
             },
             {
@@ -26581,7 +26358,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -26618,7 +26396,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -26733,31 +26512,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -27029,7 +26789,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -27111,12 +26872,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 240.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 20.0,
+              "Value": 4.0,
               "Unit": "pts/h"
             }
           ]
@@ -27125,7 +26886,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 2.0,
+              "Value": 240.0,
               "Unit": "h"
             },
             {
@@ -27464,7 +27225,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -27501,7 +27263,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -27627,31 +27390,12 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
               "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h"
             }
           ]
@@ -27923,7 +27667,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -28034,7 +27779,7 @@
             },
             {
               "Name": "End time",
-              "Value": 182.0,
+              "Value": 204.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -28054,35 +27799,7 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 444.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 446.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 182.0,
+              "Value": 204.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -28099,7 +27816,10 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
@@ -28107,7 +27827,35 @@
           "Parameters": [
             {
               "Name": "Start time",
-              "Value": 446.0,
+              "Value": 444.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 468.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 468.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -28511,7 +28259,8 @@
               "MoleculeName": "UGT1A4"
             },
             {
-              "Name": "Glomerular Filtration-Optimized"
+              "Name": "Glomerular Filtration-Optimized",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "GABRG2-Buhr 1997",
@@ -28554,7 +28303,8 @@
               "MoleculeName": "OATP1B1"
             },
             {
-              "Name": "Glomerular Filtration-GFR"
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
             }
           ],
           "Protocol": {
@@ -28931,17 +28681,17 @@
             "MolWeight": 325.77
           },
           "Values": [
-            1.98165083,
-            2.201835,
-            2.201835,
-            1.761468,
-            0.9908258,
-            0.6605505,
-            0.3302752,
-            0.2201835
+            0.001981651,
+            0.002201835,
+            0.002201835,
+            0.00176146813,
+            0.0009908257,
+            0.000660550431,
+            0.0003302752,
+            0.000220183516
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -31305,20 +31055,20 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            2.927381,
-            3.060806,
-            2.035798,
-            1.487791,
-            1.345871,
-            0.8632354,
-            0.3747871,
-            0.2954656,
-            0.1477328,
-            0.1363756
+            5.00000024E-05,
+            0.002927381,
+            0.003060806,
+            0.002035798,
+            0.00148779084,
+            0.001345871,
+            0.000863235444,
+            0.00037478708,
+            0.0002954656,
+            0.0001477328,
+            0.0001363756
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36122,18 +35872,18 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            18.43485,
-            8.15789,
-            5.050596,
-            3.483336,
-            2.644324,
-            1.351647,
-            0.8887652,
-            0.4129435,
-            0.2090828
+            0.01843485,
+            0.00815789,
+            0.00505059632,
+            0.003483336,
+            0.002644324,
+            0.001351647,
+            0.0008887652,
+            0.0004129435,
+            0.000209082791
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36254,20 +36004,20 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            35.22861,
-            22.60514,
-            19.81231,
-            13.99308,
-            11.00996,
-            5.832423,
-            3.483336,
-            2.402343,
-            0.8883256,
-            0.5058199,
-            0.1986902
+            0.03522861,
+            0.0226051416,
+            0.01981231,
+            0.0139930807,
+            0.01100996,
+            0.005832423,
+            0.003483336,
+            0.002402343,
+            0.000888325565,
+            0.0005058199,
+            0.0001986902
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36421,21 +36171,21 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            27.32583,
-            20.09695,
-            15.6458292,
-            12.18056,
-            9.924419,
-            5.307334,
-            3.604433,
-            2.71193,
-            1.417637,
-            1.111866,
-            0.5455595,
-            0.1395523
+            0.0273258314,
+            0.02009695,
+            0.01564583,
+            0.0121805593,
+            0.009924419,
+            0.005307334,
+            0.003604433,
+            0.00271193,
+            0.001417637,
+            0.00111186609,
+            0.000545559567,
+            0.0001395523
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36589,20 +36339,20 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            51.09777,
-            32.04543,
-            24.66563,
-            18.55811,
-            13.96289,
-            6.588414,
-            3.99317122,
-            3.073577,
-            1.195171,
-            0.9555714,
-            0.3679506
+            0.051097773,
+            0.0320454277,
+            0.02466563,
+            0.01855811,
+            0.0139628891,
+            0.00658841431,
+            0.00399317127,
+            0.00307357684,
+            0.00119517092,
+            0.0009555714,
+            0.0003679506
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36752,17 +36502,17 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            1.097804,
-            5.02994,
-            7.185629,
-            6.886228,
-            3.433134,
-            2.335329,
-            1.796407,
-            1.397206
+            0.00109780394,
+            0.00502994,
+            0.007185629,
+            0.006886228,
+            0.003433134,
+            0.002335329,
+            0.001796407,
+            0.00139720587
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -36909,17 +36659,17 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            1.257485,
-            3.333333,
-            5.548902,
-            5.429142,
-            2.51497,
-            1.616766,
-            1.177645,
-            0.8183632
+            0.001257485,
+            0.003333333,
+            0.00554890232,
+            0.005429142,
+            0.00251497,
+            0.001616766,
+            0.00117764494,
+            0.0008183632
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -37068,19 +36818,19 @@
             "LLOQ": 5E-13
           },
           "Values": [
-            0.05179475,
-            0.0404709019,
-            0.02912633,
-            0.0189141016,
-            0.0127980206,
-            0.005287061,
-            0.003964736,
-            0.002184166,
-            0.00316227786,
-            0.00291263312
+            5.179475E-05,
+            4.04709026E-05,
+            2.912633E-05,
+            1.8914101E-05,
+            1.279802E-05,
+            5.287061E-06,
+            3.964736E-06,
+            2.184166E-06,
+            3.16227784E-06,
+            2.91263314E-06
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -37232,20 +36982,20 @@
             "LLOQ": 5E-13
           },
           "Values": [
-            0.01706644,
-            0.0486967526,
-            0.0636167452,
-            0.04673507,
-            0.0357743166,
-            0.0213972088,
-            0.0141835809,
-            0.00797600951,
-            0.005287061,
-            0.002323119,
-            0.0009796511
+            1.706644E-05,
+            4.869675E-05,
+            6.3616746E-05,
+            4.673507E-05,
+            3.577432E-05,
+            2.13972089E-05,
+            1.41835808E-05,
+            7.976009E-06,
+            5.287061E-06,
+            2.323119E-06,
+            9.796512E-07
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -37663,19 +37413,19 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            49.5097,
-            16.9859,
-            13.99644,
-            10.31037,
-            8.849173,
-            5.05289,
-            2.885207,
-            1.565634,
-            1.277011,
-            0.8240038
+            0.0495097,
+            0.0169859,
+            0.01399644,
+            0.0103103705,
+            0.008849173,
+            0.0050528897,
+            0.002885207,
+            0.001565634,
+            0.001277011,
+            0.00082400383
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -38057,17 +37807,17 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            50.80218,
-            26.35205,
-            16.48901,
-            12.0628,
-            9.104918,
-            4.975452,
-            2.0954,
-            0.9793777
+            0.0508021824,
+            0.0263520516,
+            0.0164890084,
+            0.0120628,
+            0.009104918,
+            0.004975452,
+            0.00209540012,
+            0.0009793777
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -38186,23 +37936,23 @@
             "MolWeight": 325.77
           },
           "Values": [
-            4.58,
-            4.0,
-            2.77,
-            1.9799999,
-            1.4,
-            1.13,
-            0.933,
-            0.770999968,
-            0.51,
-            0.395,
-            0.281,
-            0.165,
-            0.119,
-            0.0393000022
+            0.00458,
+            0.00399999972,
+            0.00277,
+            0.00198,
+            0.0014,
+            0.00113,
+            0.000933,
+            0.000771,
+            0.00051,
+            0.000395,
+            0.000281000015,
+            0.000165,
+            0.000119000004,
+            3.93E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -38832,8 +38582,8 @@
     {
       "Name": "Yu 2004",
       "Classifiables": [
-        "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)",
-        "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)"
+        "DDI Control - Midazolam - Yu 2018 (CYP3A5 s3,s3)",
+        "DDI Treatment - Rifampicin/Midazolam - Yu 2004 (CYP3A5 s3,s3)"
       ]
     },
     {
