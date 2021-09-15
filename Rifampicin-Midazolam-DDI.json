@@ -8622,6 +8622,9 @@
     {
       "Name": "DDI Control - Midazolam - Backman 1996",
       "Model": "4Comp",
+      "ObservedData": [
+        "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)"
+      ],
       "Solver": {},
       "OutputSchema": [
         {
@@ -8964,6 +8967,17 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Backman 1996 - Control (Perpetrator Placebo) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -9501,7 +9515,7 @@
               "X": "Backman 1998 - Phase V (4 days after Perpetrator (Rifampicin)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)|Time",
               "Y": "Backman 1998 - Phase V (4 days after Perpetrator (Rifampicin)) - Midazolam - PO - 15 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
               "CurveOptions": {
-                "Color": "#0000FF",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -9915,6 +9929,9 @@
     {
       "Name": "DDI Treatment - Rifampicin/Midazolam - Backman 1996",
       "Model": "4Comp",
+      "ObservedData": [
+        "Backman 1996 - with Perpetrator (Rifampicin) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)"
+      ],
       "Solver": {},
       "OutputSchema": [
         {
@@ -10323,6 +10340,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 107.959167,
+              "Max": 124.60054,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -10334,6 +10353,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0009996477,
+              "Max": 604.4926,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -10357,6 +10378,17 @@
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Backman 1996 - with Perpetrator (Rifampicin) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Backman 1996 - with Perpetrator (Rifampicin) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Backman 1996 - with Perpetrator (Rifampicin) - Midazolam - PO - 15 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             }
           ],
@@ -36229,17 +36261,17 @@
             "MolWeight": 325.77
           },
           "Values": [
-            0.001981651,
-            0.002201835,
-            0.002201835,
-            0.00176146813,
-            0.0009908257,
-            0.000660550431,
-            0.0003302752,
-            0.000220183516
+            1.98165083,
+            2.201835,
+            2.201835,
+            1.761468,
+            0.9908258,
+            0.6605505,
+            0.3302752,
+            0.2201835
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -36525,14 +36557,14 @@
             "LLOQ": 2E-09
           },
           "Values": [
-            0.0009999999,
-            0.002024292,
-            0.002024292,
-            0.00121457514,
-            0.0008097166
+            1.0,
+            2.024292,
+            2.024292,
+            1.214575,
+            0.8097166
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -36676,17 +36708,17 @@
             "LLOQ": 2E-09
           },
           "Values": [
-            0.0009999999,
-            0.0109311705,
-            0.01012146,
-            0.00769230723,
-            0.006477733,
-            0.003238866,
-            0.001619433,
-            0.00121457514
+            1.0,
+            10.93117,
+            10.12146,
+            7.69230747,
+            6.477733,
+            3.238866,
+            1.619433,
+            1.214575
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
